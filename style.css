@@ -1,0 +1,62 @@
+
+#full-card{
+    margin-top: 10px;
+   border-top-right-radius: 10%;
+   border-top-left-radius: 10%;
+}
+.card-img, .card-img-top {
+    border-top-left-radius:10%;
+    border-top-right-radius:10%;
+}
+#full-card:hover{
+    box-shadow:3px 3px 3px 2px  rgb(94, 87, 87);
+    transition: all 0.3s;
+}
+.card-body{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card.img{
+    border-radius: 30%;
+    
+}
+.gift-card-info label{
+    font-size: 13px;
+
+}
+.gift-card-info label::selection{
+    background: none;
+}
+
+.gift-card-code #input{
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+#copyBtn{
+    font-weight: bolder;
+}
+#copyBtn:hover{
+    transition:all 0.4s;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+#input::selection{
+    background: yellow;
+}
+#input{
+    font-weight: bolder;
+}
+#input:focus{
+    border: none;
+    outline: none;
+}
+
+#forTest{
+    font-weight: bolder;
+    margin-top: 60px;
+    width: 300px;
+    height: 50px;
+}
